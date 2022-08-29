@@ -1,0 +1,172 @@
+*{
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+header{
+    width: 100%;
+    height: 94px;
+    background-color: #000000;
+}
+li a{
+    font-size: 18px;
+    color: #FFFFFF;
+}
+header li{
+    float: left;
+    margin: 20px;
+    margin-top: 28px;
+    
+}
+header h1{
+    width: 70px;
+    height: 70px;
+    background-image: url(../img/music-note.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-indent: -99999px;
+    float: left;
+    margin-left: 98px;
+    margin-right: 168px;
+    margin-top: 12px;
+    color: rgb(149, 14, 32);
+}
+
+header h1 a{
+    width: 70px;
+    height: 70px;
+    display: block;
+}
+.social{
+    
+    width: 50px;
+    height: 100px;
+    position: fixed;
+    top: 214px;
+    right: 0;
+}
+.social .facebook, .social .instagram{
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+}
+.social .facebook img,
+.social .instagram img{
+    width: 100%;
+}
+main{
+    padding-top: 50px;
+    padding-left: 110px;
+    padding-bottom: 100px;
+}
+article{
+    float: left;
+    margin-right: 138px;
+    margin-top: 48px;
+    margin-bottom: 22px;
+}
+section{
+    border: 1px solid #000000;
+    width: 300px;
+    height: 260px;
+   
+    position: relative;
+}
+.background{
+    background-image: url(../img/like.png);
+    background-size: 100%;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+h3 {
+    margin-top: 20px;
+    
+}
+section h3, section p{
+    padding-left: 10px;
+    
+}
+.sound{
+    width: 100%;
+    height: 88px;
+    margin-top: 26px;
+    background-image: url(../img/sound.png);
+    background-repeat: repeat-x;
+    background-size: 25%;
+    margin-top: 58px;
+   
+}
+p a{
+    color: #000000;
+}
+article p{
+    padding-top: 10px;
+}
+.latest{
+    margin-top: 30px;
+}
+.latesttwo{
+    visibility: hidden;
+}
+
+
+footer{
+    height: 354px;
+    width: 100%;
+    background-color: #000000;
+    margin-top: 20px;
+    color: #FFFFFF;
+    clear: both;
+}
+footer li, footer p{
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 10px;
+}
+.logo{
+    background-image: url(../img/music-note.png);
+    width: 150px;
+    height: 150px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 20px auto;
+}
+.list li a{
+    color: #000000;
+    padding: 18px;
+    line-height:initial;
+}
+.list{
+    width: 280px;
+    height: 360px;
+    float: left;
+    margin-right: 70px;
+
+   
+}
+h2{
+    margin: 34px 10px;
+}
+.soundtwo{
+    clear: both;
+    width: 260px;
+    margin-left: 432px;
+    margin-top: 402px;
+}
+.secondlist{
+    margin-right: 40px;
+}
+.lastp{
+    text-align: center;
+    font-size: 36px;
+    text-transform: capitalize;
+}
+.lastsoundtwo{
+    margin: 60px auto;
+    clear: both;
+}
