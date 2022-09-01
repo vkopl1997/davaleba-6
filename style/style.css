@@ -21,9 +21,6 @@ header li{
     margin-top: 28px;
     
 }
-header li a:hover{
-
-}
 header li a::before{
     content: "";
     width: 0;
